@@ -23,6 +23,9 @@ server.post('/api/messages', connector.listen());
 // Bots Dialogs
 //=========================================================
 
+
+
+
 bot.dialog('/', function (session) {
-    session.send("Hello World");
+    session.send("aha World");
 });
